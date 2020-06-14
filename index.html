@@ -9,6 +9,7 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@200;300;400;600;800&display=swap" rel="stylesheet">
 
     <!-- CSS Reset : BEGIN -->
 <style>
@@ -45,7 +46,6 @@ table {
     border-spacing: 0 !important;
     border-collapse: collapse !important;
     table-layout: fixed !important;
-    margin: 0 auto !important;
 }
 
 /* What it does: Uses a better rendering method when resizing images in IE. */
@@ -137,6 +137,14 @@ img.g-img + div {
 	padding:2.5em;
 }
 
+.strong {
+  font-weight: 700;
+}
+
+.elem-small {
+  display: none;
+}
+
 /*BUTTON*/
 .btn{
 	padding: 10px 15px;
@@ -150,17 +158,18 @@ img.g-img + div {
 
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', serif;
+  font-weight: 600;
 	color: #000000;
 	margin-top: 0;
 }
 
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
-	line-height: 1.8;
-	color: rgba(0,0,0,.4);
+	line-height: 1.7;
+	color: rgba(0,0,0,.85);
 }
 
 a{
@@ -190,7 +199,8 @@ table{
 
 }
 .hero .text{
-	color: rgba(255,255,255,.8);
+	color: rgba(255,255,255,.85);
+  padding: 1rem;
 }
 .hero .text h2{
 	color: #ffffff;
@@ -211,10 +221,12 @@ table{
 .heading-section .subheading{
 	margin-bottom: 20px !important;
 	display: inline-block;
-	font-size: 13px;
+  font-family: "Raleway", serif;
+  font-weight: 600;
+	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: rgba(0,0,0,.4);
+	color: rgba(0,0,0,.5);
 	position: relative;
 }
 .heading-section .subheading::after{
@@ -348,17 +360,29 @@ table{
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
 
 	.icon{
 		text-align: left;
 	}
+
+  .elem-small {
+    display: block;
+  }
+
+  .elem-large {
+    display: none;
+  }
 
 	.text-services{
 		padding-left: 0;
 		padding-right: 20px;
 		text-align: left;
 	}
+
+  .email-section {
+    padding: 0;
+  }
 
 }
 
@@ -372,32 +396,110 @@ table{
     <div style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
       &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
     </div>
-    <div style="max-width: 600px; margin: 0 auto;" class="email-container">
+    <div style="max-width: 1050px; margin: 0 auto;" class="email-container">
     	<!-- BEGIN BODY -->
       <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
-      	<tr>
-          <td class="bg_white logo" style="padding: 1em 2.5em; text-align: center">
-            <h1><a href="#">RestoBar</a></h1>
+      	<tr class="bg_white elem-small">
+          <td class="logo">
+            <img src="img/logo1.png" style="width: 150px;" alt="logo capo sud">
           </td>
-	      </tr><!-- end tr -->
+        </tr>
+        <tr>
+          <td>
+            <img src="img/topsmall.jpg" style="width: 100%;" alt="banner capo sud">
+          </td>
+        </tr>
+
+        <tr class="elem-large">
+          <td class="bg_white logo">
+            <img src="img/toplarge.jpg" style="width: 100%" alt="logo capo sud">
+          </td>
+        </tr><!-- end tr -->
+        
 				<tr>
-          <td valign="middle" class="hero" style="background-image: url(images/bg_1.jpg); background-size: cover; height: 400px;">
+          <td valign="middle" class="hero" style="background-color: #0082DF; height: 150px;">
             <table>
             	<tr>
             		<td>
-            			<div class="text" style="padding: 0 3em; text-align: center;">
-            				<h2>We Serve Healthy &amp; Delicious Foods</h2>
-            				<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            				<p><a href="#" class="btn btn-primary">Get Your Order Here!</a></p>
+            			<div class="text">
+            				<h2>Gentile Signor Bruno,</h2>
+            				<p>La ringraziamo per averci contattato per una vacanza all'Isola d'Elba</p>
             			</div>
             		</td>
             	</tr>
             </table>
           </td>
-	      </tr><!-- end tr -->
+        </tr><!-- end tr -->
+        <tr class="elem-small"> <!-- elemento con una colonna -->
+          <td class="bg_light email-section" style="text-align:center;">
+            <table>
+              <tr>
+                <td class="img">
+                  <table>
+                    <tr>
+                      <td>
+                        <img src="img/esterno2.jpg" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;" class="g-img">
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-services" style="text-align: left; padding: 20px 30px;">
+                  <div class="heading-section">
+                    <span class="subheading">La nostra casa</span>
+                    <p>le caratteristiche che propone la nostra Casa sono di una struttura immersa in un grande parco adiacente alla nostra <span class="strong">spiaggia sabbiosa privata</span> (citata anche quest'anno nella "guida blu" di Legambiente). 
+                      <br> <br>
+                      La spiaggia è attrezzata e l'uso di ombrelloni, lettini e sdraio è gratuito per i nostri Ospiti. 
+                      <br> <br>
+                      Ombrellone e lettini sono disponibili dal mattino del giorno di arrivo fino alla sera del giorno di partenza. 
+                      </p>
+                    <!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr><!-- end: tr -->
 	      <tr>
 		      <td class="bg_white">
 		        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+              <tr class="elem-large">  <!-- elemento con 2 colonne  -->
+		            <td class="bg_light email-section" style="padding: 0; width: 100%;">
+		            	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+		            		<tr>
+                      <td valign="middle" width="50%">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                          <tr>
+                            <td>
+                              <img src="img/esterno2.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td valign="middle" width="50%">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                          <tr>
+                            <td class="text-services" style="text-align: left; padding: 20px 30px;">
+                            	<div class="heading-section">
+								            		<span class="subheading">La nostra casa</span>
+								              	<p>le caratteristiche che propone la nostra Casa sono di una struttura immersa in un grande parco adiacente alla nostra <span class="strong">spiaggia sabbiosa privata</span> (citata anche quest'anno nella "guida blu" di Legambiente). 
+                                  <br> <br>
+                                  La spiaggia è attrezzata e l'uso di ombrelloni, lettini e sdraio è gratuito per i nostri Ospiti. 
+                                  <br> <br>
+                                  Ombrellone e lettini sono disponibili dal mattino del giorno di arrivo fino alla sera del giorno di partenza. 
+                                  </p>
+								              	<!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
+								            	</div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+		            	</table>
+		            </td>
+		          </tr><!-- end: tr -->
 		          <tr>
 		            <td class="bg_dark email-section" style="text-align:center;">
 		            	<div class="heading-section heading-section-white">
