@@ -7,8 +7,6 @@
     <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
     <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
 
-
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@200;300;400;600;800&display=swap" rel="stylesheet">
 
     <!-- CSS Reset : BEGIN -->
@@ -131,10 +129,22 @@ img.g-img + div {
 	background: #000000;
 }
 .bg_dark{
-	background: rgba(0,0,0,.8);
+	background: rgb(27, 63, 104);
 }
 .email-section{
 	padding:2.5em;
+}
+
+.pdng-small {
+  padding: 20px;
+}
+
+.bg_white.email-section{
+  padding: 20px 0;
+}
+
+.almost-black {
+  color: #404040;
 }
 
 .strong {
@@ -173,7 +183,7 @@ body{
 }
 
 a{
-	color: #f3a333;
+	color: #7692BC;
 }
 
 table{
@@ -242,7 +252,7 @@ table{
 }
 
 .heading-section-white{
-	color: rgba(255,255,255,.8);
+	color: rgba(255,255,255,.9);
 }
 .heading-section-white h2{
 	font-size: 28px;
@@ -374,6 +384,10 @@ table{
     display: none;
   }
 
+  .hero .text {
+    padding: 20px;
+  }
+
 	.text-services{
 		padding-left: 0;
 		padding-right: 20px;
@@ -381,7 +395,7 @@ table{
 	}
 
   .email-section {
-    padding: 42px;
+    padding: 20px;
   }
 
 }
@@ -417,7 +431,7 @@ table{
         </tr><!-- end tr -->
         
 				<tr>
-          <td valign="middle" class="hero" style="height: 150px;">
+          <td valign="middle" class="hero" style="background-color: white; height: 150px;">
               <div class="text">
                 <h2>Gentile Signor Bruno,</h2>
                 <p>La ringraziamo per averci contattato per una vacanza all'Isola d'Elba</p>
@@ -426,17 +440,17 @@ table{
         </tr><!-- end tr -->
 
             <!-- sezione 1 generale -->
-            <table class="elem-small"> <!-- elemento con 1 colonna  -->
+            <table class="bg_light elem-small"> <!-- elemento con 1 colonna  -->
               <tr>
                 <td class="img">
-                   <img src="img/esterno2.jpg" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;" class="g-img">
+                   <img src="img/lacasa.jpg" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;" class="g-img">
                 </td>
               </tr>
               <tr>
                 <td class="text-services" style="text-align: left; padding: 20px;">
                   <div class="heading-section">
                     <span class="subheading">La nostra casa</span>
-                    <p>le caratteristiche che propone la nostra Casa sono di una struttura immersa in un grande parco adiacente alla nostra <span class="strong">spiaggia sabbiosa privata</span> (citata anche quest'anno nella "guida blu" di Legambiente). 
+                    <p>le caratteristiche che propone la nostra Casa sono di una struttura immersa in un grande parco adiacente alla nostra <span class="strong almost-black">spiaggia sabbiosa privata</span> (citata anche quest'anno nella "guida blu" di Legambiente). 
                       <br> <br>
                       La spiaggia è attrezzata e l'uso di ombrelloni, lettini e sdraio è gratuito per i nostri Ospiti. 
                       <br> <br>
@@ -460,7 +474,7 @@ table{
                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                           <tr>
                             <td>
-                              <img src="img/esterno2.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+                              <img src="img/lacasa.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
                             </td>
                           </tr>
                         </table>
@@ -471,7 +485,7 @@ table{
                             <td class="text-services" style="text-align: left; padding: 20px 30px;">
                             	<div class="heading-section">
 								            		<span class="subheading">La nostra casa</span>
-								              	<p>le caratteristiche che propone la nostra Casa sono di una struttura immersa in un grande parco adiacente alla nostra <span class="strong">spiaggia sabbiosa privata</span> (citata anche quest'anno nella "guida blu" di Legambiente). 
+								              	<p>le caratteristiche che propone la nostra Casa sono di una struttura immersa in un grande parco adiacente alla nostra <span class="strong almost-black">spiaggia sabbiosa privata</span> (citata anche quest'anno nella "guida blu" di Legambiente). 
                                   <br> <br>
                                   La spiaggia è attrezzata e l'uso di ombrelloni, lettini e sdraio è gratuito per i nostri Ospiti. 
                                   <br> <br>
@@ -490,7 +504,7 @@ table{
 
               <!-- sezione 2 piscina -->
 
-              <table class="elem-small"> <!-- elemento con 1 colonna  -->
+              <table class="bg_white elem-small"> <!-- elemento con 1 colonna  -->
                 <tr>
                   <td class="img">
                      <img src="img/piscina.jpg" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;" class="g-img">
@@ -500,10 +514,9 @@ table{
                   <td class="text-services" style="text-align: left; padding: 20px">
                     <div class="heading-section">
                       <span class="subheading">Piscina e mare</span>
-                      <p>Vicino alla spiaggia abbiamo una <span class="strong">grande e scenografica piscina di acqua dolce</span>. Sia in piscina che sulla spiaggia abbiamo bagnini abilitati che offrono aiuto, sicurezza e cordialità.
-                        <br> <br>
-                        A fianco alla piscina c'è il ristorante per il pranzo (aperto da metà giugno a metà settembre circa) dove è possibile consumare un pasto completo o anche fare solamente uno spuntino leggero e veloce senza doversi nemmeno cambiare d'abito dopo la spiaggia.
-                         
+                      <p>Vicino alla spiaggia abbiamo una <span class="strong almost-black">grande e scenografica piscina di acqua dolce</span>.
+                        <br><br> Sia in piscina che sulla spiaggia abbiamo bagnini abilitati che offrono aiuto, sicurezza e cordialità.
+                       
                         </p>
                       <!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
                     </div>
@@ -516,7 +529,7 @@ table{
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
   
                 <tr class="elem-large">  <!-- elemento con 2 colonne  -->
-                  <td class="bg_light email-section" style="padding: 0; width: 100%;">
+                  <td class="bg_white email-section" style="padding: 0; width: 100%;">
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
                         
@@ -526,10 +539,9 @@ table{
                               <td class="text-services" style="text-align: left; padding: 20px 30px;">
                                 <div class="heading-section">
                                   <span class="subheading">Piscina e mare</span>
-                                  <p>Vicino alla spiaggia abbiamo una <span class="strong">grande e scenografica piscina di acqua dolce</span>. Sia in piscina che sulla spiaggia abbiamo bagnini abilitati che offrono aiuto, sicurezza e cordialità.
-                                    <br> <br>
-                                    A fianco alla piscina c'è il ristorante per il pranzo (aperto da metà giugno a metà settembre circa) dove è possibile consumare un pasto completo o anche fare solamente uno spuntino leggero e veloce senza doversi nemmeno cambiare d'abito dopo la spiaggia.
-                                     
+                                  <p>Vicino alla spiaggia abbiamo una <span class="strong almost-black">grande e scenografica piscina di acqua dolce</span>.
+                                    <br><br> Sia in piscina che sulla spiaggia abbiamo bagnini abilitati che offrono aiuto, sicurezza e cordialità.
+                                        
                                     </p>
                                   <!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
                                 </div>
@@ -553,7 +565,7 @@ table{
 
                 <!-- sezione 3 ristorazione -->
 
-                <table class="elem-small"> <!-- elemento con 1 colonna  -->
+                <table class="bg_light elem-small"> <!-- elemento con 1 colonna  -->
                   <tr>
                     <td class="img">
                        <img src="img/ristorante.jpg" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;" class="g-img">
@@ -563,10 +575,12 @@ table{
                     <td class="text-services" style="text-align: left; padding: 20px">
                       <div class="heading-section">
                         <span class="subheading">Ristorazione</span>
-                        <p>Vicino alla spiaggia abbiamo una <span class="strong">grande e scenografica piscina di acqua dolce</span>. Sia in piscina che sulla spiaggia abbiamo bagnini abilitati che offrono aiuto, sicurezza e cordialità.
+                        <p><span class="strong almost-black">Accanto alla piscina c'è il ristorante per il pranzo</span> (aperto da metà giugno a metà settembre circa)
+                          dove è possibile consumare un pasto completo o anche solamente uno spuntino leggero.
+                          <br>  <br>
+                          <span class="strong almost-black">Per la cena, servita ai tavoli, abbiamo il ristorante superiore</span> situato nel corpo centrale dell'albergo, dove ci sono anche reception, hall e la biblioteca.
                           <br> <br>
-                          A fianco alla piscina c'è il ristorante per il pranzo (aperto da metà giugno a metà settembre circa) dove è possibile consumare un pasto completo o anche fare solamente uno spuntino leggero e veloce senza doversi nemmeno cambiare d'abito dopo la spiaggia.
-                           
+                          <span class="strong almost-black">La ricca colazione, dolce e salata, è preparata dalla nostra cucina</span> ed è servita al tavolo in un'atmosfera incantevole grazie ad una splendida vista sul mare.   
                           </p>
                         <!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
                       </div>
@@ -597,11 +611,12 @@ table{
                                 <td class="text-services" style="text-align: left; padding: 20px 30px;">
                                   <div class="heading-section">
                                     <span class="subheading">Ristorazione</span>
-                                    <p>A fianco alla piscina c'è il ristorante per il pranzo (aperto da metà giugno a metà settembre circa) dove è possibile consumare un pasto completo o anche solamente uno spuntino leggero senza doversi nemmeno cambiare d'abito dopo la spiaggia.
+                                    <p><span class="strong almost-black">Accanto alla piscina c'è il ristorante per il pranzo</span> (aperto da metà giugno a metà settembre circa)
+                                      dove è possibile consumare un pasto completo o anche solamente uno spuntino leggero.
                                       <br>  <br>
-                                      Per la cena, servita ai tavoli, abbiamo il ristorante superiore situato nel corpo centrale dell'albergo, dove ci sono anche reception, hall e la biblioteca.
+                                      <span class="strong almost-black">Per la cena, servita ai tavoli, abbiamo il ristorante superiore</span> situato nel corpo centrale dell'albergo, dove ci sono anche reception, hall e la biblioteca.
                                       <br> <br>
-                                      La ricca colazione, dolce e salata, è preparata dalla nostra cucina ed è servita al tavolo in un'atmosfera incantevole grazie ad una splendida vista sul mare.   
+                                      <span class="strong almost-black">La ricca colazione, dolce e salata, è preparata dalla nostra cucina</span> ed è servita al tavolo in un'atmosfera incantevole grazie ad una splendida vista sul mare.   
                                       </p>
                                     <!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
                                   </div>
@@ -615,400 +630,177 @@ table{
                     </td>
                   </tr><!-- end: tr -->
 
+                  <!-- sezione 4 camere -->
 
-		          <tr>
-		            <td class="bg_dark email-section" style="text-align:center;">
-		            	<div class="heading-section heading-section-white">
-		            		<span class="subheading">Welcome</span>
-		              	<h2>Welcome To RestoBar</h2>
-		              	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		            	</div>
-		            </td>
-		          </tr><!-- end: tr -->
-		          <tr>
+                <table class="bg_light elem-small"> <!-- elemento con 1 colonna  -->
+                  <tr>
+                    <td class="img">
+                       <img src="img/parcocamere.jpg" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;" class="g-img">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-services" style="text-align: left; padding: 20px">
+                      <div class="heading-section">
+                        <span class="subheading">Le camere</span>
+                        <p><span class="strong">Le nostre camere sono distribuite in diversi piccoli edifici nello spazio del parco.</span> Ogni edificio ospita un piccolo numero di camere, da due ad un massimo di dodici. Ogni camera dispone di un suo terrazzino o spazio privato.
+                          <br> <br>
+                          A fianco dell'entrata dell'albergo, abbiamo un <span class="strong">parcheggio riservato agli Ospiti ad uso gratuito.</span>
+                          <br> <br>
+                          Sempre gratuitamente si può giocare a tennis nel campo di erba sintetica del Capo Sud.
+                          </p>
+                        <!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+            
+              <tr>
+               <td class="bg_white">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"> <!-- elemento con 2 colonne  -->
+    
+                  <tr class="elem-large"> 
+
+                    <td class="bg_light email-section" style="padding: 0; width: 100%;">
+                      <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          
+                          <td valign="middle" width="50%">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tr>
+                                <td class="text-services" style="text-align: left; padding: 20px 30px;">
+                                  <div class="heading-section">
+                                    <span class="subheading">Il parco e le camere</span>
+                                    <p><span class="strong">Le nostre camere sono distribuite in diversi piccoli edifici nello spazio del parco.</span> Ogni edificio ospita un piccolo numero di camere, da due ad un massimo di dodici. Ogni camera dispone di un suo terrazzino o spazio privato.
+                                      <br> <br>
+                                      A fianco dell'entrata dell'albergo, abbiamo un <span class="strong">parcheggio riservato agli Ospiti ad uso gratuito.</span>
+                                      <br> <br>
+                                      Sempre gratuitamente si può giocare a tennis nel campo di erba sintetica del Capo Sud.
+                                      </p>
+                                    <!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td valign="middle" width="50%">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tr>
+                                <td>
+                                  <img src="img/parcocamere.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          
+                        </tr>
+                      </table>
+                    </td>
+                  </tr><!-- end: tr -->
+                </table>
+              
+              <table>
+                <tr>
+                  <td class="bg_dark email-section" style="text-align:left;">
+                    <div class="heading-section heading-section-white">
+                      <span class="subheading">Note aggiuntive</span>
+                      <p>- Tutto il nostro personale è a disposizione dell'Ospite: <span class="strong">le nostre priorità sono la cortesia e l'attenzione ai bisogni</span> per riuscire ad offrire una vacanza di pieno relax e tranquillità.</p>
+                      <p>- <span class="strong">Con la mezza pensione è possibile alternare la scelta di mangiare a pranzo o a cena cambiando anche tutti i giorni,</span> semplicemente avvertendo della propria scelta il maitre di sala al mattino (il trattamento scelto è inteso per tutto il periodo e per tutti gli occupanti la camera).</p>
+                      <p>- <span class="strong">Servizi gratuiti:</span> servizio spiaggia (2 lettini ed un ombrellone per camera), piscina, tennis, wifi, biblioteca e parcheggio.</p>
+                      <p>- <span class="strong">Servizi extra:</span> bevande ai pasti, consumazioni al bar, chiosco, frigobar (fornitura su richiesta), noleggio imbarcazioni e mountain bikes.</p>
+                    </div>
+                  </td>
+                </tr><!-- end: tr -->
+		           <tr>
 		            <td class="bg_white email-section">
 		            	<div class="heading-section" style="text-align: center; padding: 0 30px;">
-		            		<span class="subheading">Services</span>
-		              	<h2>Our Services</h2>
-		              	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-		            	</div>
-		            	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+		            		<span class="subheading">qua c'è la parte</span>
+		              	<h2>Dove vanno i prezzi? 'Na cosa del genere</h2>
+		              	<p>La distinzione tra camere "verdi" ed "azzurre" riguarda solamente la "vista" e non la distanza dal mare in quanto tutte le camere sono nel raggio di un centinaio di metri dalla spiaggia e quindi decisamente vicino al mare.</p>
+                  </div>
+                  <table class="bg_light elem-small pdng-small"> <!-- elemento con 1 colonna  -->
+                    <tr style="margin-top: 30px;">
+                      <td class="icon">
+                        <img src="img/prezzo.png" alt="" style="height: 62px; width: auto; margin: auto; display: block;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-services">
+                        <h3>Garanzia miglior prezzo</h3>
+                         <p>Come "amici del Capo Sud", prenotando direttamente senza passare attraverso intermediari avrete la certezza del miglior prezzo. Fate il confronto!</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="icon">
+                        <img src="img/sicura.png" alt="" style="height: 62px; width: auto; margin: auto; display: block;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-services">
+                        <h3>Accoglienza sicura</h3>
+                        <p>La invitiamo a consultare la <a href="https://www.hotelcaposud.it/it/domande-frequenti-covid/" target="_blank">sezione dedicata alle FAQ</a> sul nostro sito per conoscere nel dettaglio il notro programma e le linee guida per una vacanza sicure e in pieno relax.</p>
+                      </td>
+                    </tr>
+                   
+                  </table>
+		            	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" class="elem-large">
 		            		<tr>
-                      <td valign="top" width="50%" style="padding-top: 20px;">
+                      <td valign="top" width="50%" style="padding-top: 30px;">
                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                           <tr>
                             <td class="icon">
-                              <img src="images/001-diet.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
+                              <img src="img/prezzo.png" alt="" style="height: 62px; width: auto; margin: auto; display: block;">
                             </td>
                           </tr>
                           <tr>
                             <td class="text-services">
-                            	<h3>Healthy Foods</h3>
-                             	<p>Far far away, behind the word mountains, far from the countries</p>
+                            	<h3>Garanzia miglior prezzo</h3>
+                             	<p>Come "amici del Capo Sud", prenotando direttamente senza passare attraverso intermediari avrete la certezza del miglior prezzo. Fate il confronto!</p>
                             </td>
                           </tr>
                         </table>
                       </td>
-                      <td valign="top" width="50%" style="padding-top: 20px;">
+                      <td valign="top" width="50%" style="padding-top: 30px;">
                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                           <tr>
                             <td class="icon">
-                              <img src="images/003-recipe-book.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
+                              <img src="img/sicura.png" alt="" style="height: 62px; width: auto; margin: auto; display: block;">
                             </td>
                           </tr>
                           <tr>
                             <td class="text-services">
-                            	<h3>Original Recipes</h3>
-                              <p>Far far away, behind the word mountains, far from the countries</p>
+                            	<h3>Accoglienza sicura</h3>
+                              <p>La invitiamo a consultare la <a href="https://www.hotelcaposud.it/it/domande-frequenti-covid/" target="_blank">sezione dedicata alle FAQ</a> sul nostro sito per conoscere nel dettaglio il notro programma e le linee guida per una vacanza sicure e in pieno relax.</p>
                             </td>
                           </tr>
                         </table>
                       </td>
                     </tr>
-		            	</table>
-		            </td>
-		          </tr><!-- end: tr -->
-		          <tr>
-		            <td class="bg_light email-section" style="text-align:center;">
-		            	<table>
-		            		<tr>
-		            			<td class="img">
-		            				<table>
-		            					<tr>
-		            						<td>
-		            							<img src="images/bg_2.jpg" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;" class="g-img">
-		            						</td>
-		            					</tr>
-		            				</table>
-		            				<div class="icon">
-			            				<a href="#">
-		                        <img src="images/002-play-button.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
-		                      </a>
-	                      </div>
-		            			</td>
-		            		</tr>
-		            		<tr>
-		            			<td style="padding-top: 20px;">
-		            				<h2>Watch Our Video</h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		            			</td>
-		            		</tr>
-		            	</table>
-		            </td>
-		          </tr><!-- end: tr -->
-		          <tr>
-		            <td class="bg_white email-section">
-		            	<div class="heading-section" style="text-align: center; padding: 0 30px;">
-		            		<span class="subheading">Menu</span>
-		              	<h2>Our Delicious Food</h2>
-		              	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-		            	</div>
-		            	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-		            		<tr>
-                      <td valign="top" width="50%" style="padding-top: 20px;">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td style="padding-right: 10px;">
-                              <img src="images/menu-1.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="text-services" style="text-align: left;">
-                            	<h3>Pasta, Sauce Milk</h3>
-                             	<p>Far far away, behind the word mountains, far from the countries</p>
-                             	<p><a href="#" class="btn btn-primary">Read more</a></p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="top" width="50%" style="padding-top: 20px;">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td style="padding-left: 10px;">
-                              <img src="images/menu-2.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="text-services" style="text-align: left;">
-                            	<h3>Sweetened Fruits</h3>
-                              <p>Far far away, behind the word mountains, far from the countries</p>
-                              <p><a href="#" class="btn btn-primary">Read more</a></p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-		            	</table>
-		            </td>
-		          </tr><!-- end: tr -->
-
-		          <tr>
-		            <td class="bg_light email-section" style="padding: 0; width: 100%;">
-		            	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-		            		<tr>
-                      <td valign="middle" width="50%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td class="text-services" style="text-align: left; padding: 20px 30px;">
-                            	<div class="heading-section">
-								            		<span class="subheading">Breakfast</span>
-								              	<h2 style="font-size: 22px;">Grilled Beef with potatoes</h2>
-								              	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-								              	<p><a href="#" class="btn btn-primary">Read more</a></p>
-								            	</div>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="middle" width="50%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td>
-                              <img src="images/bg_3.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-		            	</table>
-		            </td>
-		          </tr><!-- end: tr -->
-		          <tr>
-		            <td class="bg_light email-section" style="padding: 0; width: 100%;">
-		            	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-		            		<tr>
-                      <td valign="middle" width="50%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td>
-                              <img src="images/bg_4.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="middle" width="50%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td class="text-services" style="text-align: left; padding: 20px 30px;">
-                            	<div class="heading-section">
-								            		<span class="subheading">Lunch</span>
-								              	<h2 style="font-size: 22px;">Grilled Beef with potatoes</h2>
-								              	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-								              	<p><a href="#" class="btn btn-primary">Read more</a></p>
-								            	</div>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-		            	</table>
-		            </td>
-		          </tr><!-- end: tr -->
-		          <tr>
-		            <td class="bg_light email-section" style="padding: 0; width: 100%;">
-		            	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-		            		<tr>
-                      <td valign="middle" width="50%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td class="text-services" style="text-align: left; padding: 20px 30px;">
-                            	<div class="heading-section">
-								            		<span class="subheading">Dinner</span>
-								              	<h2 style="font-size: 22px;">Grilled Beef with potatoes</h2>
-								              	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-								              	<p><a href="#" class="btn btn-primary">Read more</a></p>
-								            	</div>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="middle" width="50%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td>
-                              <img src="images/bg_6.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-		            	</table>
-		            </td>
-		          </tr><!-- end: tr -->
-		          <tr>
-		            <td class="bg_light email-section" style="padding: 0; width: 100%;">
-		            	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-		            		<tr>
-                      <td valign="middle" width="50%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td>
-                              <img src="images/bg_5.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="middle" width="50%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td class="text-services" style="text-align: left; padding: 20px 30px;">
-                            	<div class="heading-section">
-								            		<span class="subheading">Dessert</span>
-								              	<h2 style="font-size: 22px;">Grilled Beef with potatoes</h2>
-								              	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-								              	<p><a href="#" class="btn btn-primary">Read more</a></p>
-								            	</div>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-		            	</table>
-		            </td>
-		          </tr><!-- end: tr -->
-		          <tr>
-			          <td valign="middle" class="counter" style="background-image: url(images/bg_1.jpg); background-size: cover; padding: 4em 0;">
-			            <table>
-			            	<tr>
-			            		<td valign="middle" width="25%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td class="counter-text">
-                            	<span class="num">9457</span>
-                            	<span class="name">Happy Customer</span>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="middle" width="25%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td class="counter-text">
-                            	<span class="num">20</span>
-                            	<span class="name">Years of Experienced</span>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="middle" width="25%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td class="counter-text">
-                            	<span class="num">80</span>
-                            	<span class="name">Branches</span>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="middle" width="25%">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td class="counter-text">
-                            	<span class="num">980</span>
-                            	<span class="name">Staff</span>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-			            	</tr>
-			            </table>
-			          </td>
-				      </tr><!-- end tr -->
-				      <tr>
-		            <td class="bg_white email-section">
-		            	<div class="heading-section" style="text-align: center; padding: 0 30px;">
-		            		<span class="subheading">Blog</span>
-		              	<h2>Read Stories</h2>
-		              	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-		            	</div>
-		            	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-		            		<tr>
-                      <td valign="top" width="50%" style="padding-top: 20px;">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td style="padding-right: 10px;">
-                              <img src="images/blog-1.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="text-services" style="text-align: left;">
-                            	<p class="meta"><span>Posted on Feb 18, 2019</span> <span>Food</span></p>
-                            	<h3>Healthy Foods For Kids</h3>
-                             	<p>Far far away, behind the word mountains, far from the countries</p>
-                             	<p><a href="#" class="btn btn-primary">Read more</a></p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="top" width="50%" style="padding-top: 20px;">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td style="padding-left: 10px;">
-                              <img src="images/blog-2.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="text-services" style="text-align: left;">
-                            	<p class="meta"><span>Posted on Feb 18, 2019</span> <span>Food</span></p>
-                            	<h3>A Fresh Food Organic</h3>
-                              <p>Far far away, behind the word mountains, far from the countries</p>
-                              <p><a href="#" class="btn btn-primary">Read more</a></p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-		            	</table>
+		            	</table> 
 		            </td>
 		          </tr><!-- end: tr -->
 		          <tr>
 		            <td class="bg_light email-section">
-		            	<div class="heading-section" style="text-align: center; padding: 0 30px;">
-		            		<span class="subheading">Says</span>
-		              	<h2>Testimonial</h2>
-		              	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-		            	</div>
-		            	<table role="presentation" border="0" cellpadding="10" cellspacing="0" width="100%">
+		            	<table>
 		            		<tr>
-                      <td valign="top" width="50%" style="padding-top: 20px;">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td>
-                              <img src="images/person_1.jpg" alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; margin-bottom: 20px; display: block; border-radius: 50%;">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="text-testimony" style="text-align: center;">
-                            	<h3 class="name">Ronald Tuff</h3>
-                            	<span class="position">Businessman</span>
-                             	<p>Far far away, behind the word mountains, far from the countries</p>
-                             	<p><a href="#" class="btn btn-primary">Read more</a></p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td valign="top" width="50%" style="padding-top: 20px;">
-                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                          <tr>
-                            <td>
-                              <img src="images/person_2.jpg" alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; margin-bottom: 20px; display: block; border-radius: 50%;">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="text-testimony" style="text-align: center;">
-                            	<h3 class="name">Willam Clarson</h3>
-                            	<span class="position">Businessman</span>
-                              <p>Far far away, behind the word mountains, far from the countries</p>
-                              <p><a href="#" class="btn btn-primary">Read more</a></p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
+		            			<td class="img">
+		            				 <img src="img/famiglia.jpg" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 700px; height: auto; margin: auto; display: block;" class="g-img">
+		            			</td>
+		            		</tr>
+		            		<tr>
+		            			<td style="padding-top: 40px;">
+		            				<h2 style="text-align: center;">La aspettiamo! (bla bla bla)</h2>
+                        <p>La invitiamo a visitare il nostro sito www.hotelcaposud.it dove troverà altre informazioni ed immagini per potersi fare un'idea ancora più precisa della nostra Casa.</p>
+                        <p>Se ha interesse, può seguire questo link per leggere opinioni date liberamente da persone che sono state Ospiti del nostro albergo.</p>
+                        <p>Per il traghetto, il nostro albergo propone ai propri Ospiti una tariffa interessante e conveniente.
+                          Visiti sul nostro sito "come raggiungerci" per maggiori dettagli o ci contatti direttamente.</p>
+                        <p>Noi rimaniamo ovviamente a Sua completa disposizione per ogni Sua necessità di chiarimento o di informazione.</p>
+                        <p>La ringraziamo e La salutiamo cordialmente.</p>
+		            			</td>
+		            		</tr>
 		            	</table>
 		            </td>
 		          </tr><!-- end: tr -->
-		          
+		        
 		        </table>
 
 		      </td>
@@ -1017,20 +809,10 @@ table{
       </table>
       <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
       	<tr>
-          <td valign="middle" class="bg_black footer email-section">
+          <td valign="middle" class="bg_dark footer email-section">
             <table>
             	<tr>
-                <td valign="top" width="33.333%" style="padding-top: 20px;">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td style="text-align: left; padding-right: 10px;">
-                      	<h3 class="heading">RestoBar</h3>
-                      	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-                <td valign="top" width="33.333%" style="padding-top: 20px;">
+                <td valign="top" width="50%" style="padding-top: 20px;">
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
                       <td style="text-align: left; padding-left: 5px; padding-right: 5px;">
@@ -1043,7 +825,7 @@ table{
                     </tr>
                   </table>
                 </td>
-                <td valign="top" width="33.333%" style="padding-top: 20px;">
+                <td valign="top" width="50%" style="padding-top: 20px;">
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
                       <td style="text-align: left; padding-left: 10px;">
@@ -1062,32 +844,6 @@ table{
             </table>
           </td>
         </tr><!-- end: tr -->
-        <tr>
-        	<td valign="middle" class="bg_black footer email-section">
-        		<table>
-            	<tr>
-                <td valign="top" width="33.333%">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td style="text-align: left; padding-right: 10px;">
-                      	<p>&copy; 2018 Restobar. All Rights Reserved</p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-                <td valign="top" width="33.333%">
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td style="text-align: right; padding-left: 5px; padding-right: 5px;">
-                      	<p><a href="#" style="color: rgba(255,255,255,.4);">Unsubcribe</a></p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-        	</td>
-        </tr>
       </table>
 
     </div>
