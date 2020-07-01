@@ -155,6 +155,14 @@ img.g-img + div {
   display: none;
 }
 
+.aleft {
+  text-align: left!important;
+}
+
+.acenter {
+  text-align: center;
+}
+
 /*BUTTON*/
 .btn{
 	padding: 10px 15px;
@@ -172,6 +180,12 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 600;
 	color: #000000;
 	margin-top: 0;
+}
+
+h4 {
+  font-size: 14px;
+  color: #656565;
+  margin-top: -5px;
 }
 
 body{
@@ -213,7 +227,7 @@ table{
   padding: 3rem 1.5rem;;
 }
 .hero .text h2{
-  color: rgba(0,0,0,.5);
+  color: rgba(0,0,0,.75);
 	font-size: 30px;
 	margin-bottom: 0;
 }
@@ -223,20 +237,20 @@ table{
 .heading-section{
 }
 .heading-section h2{
-	color: #000000;
-	font-size: 28px;
+	color: #454545;
+	font-size: 25px;
 	margin-top: 0;
 	line-height: 1.4;
 }
 .heading-section .subheading{
-	margin-bottom: 20px !important;
+	margin-bottom: 15px !important;
 	display: inline-block;
   font-family: "Raleway", serif;
   font-weight: 600;
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: rgba(0,0,0,.5);
+	color: rgba(0,0,0,.6);
 	position: relative;
 }
 .heading-section .subheading::after{
@@ -712,11 +726,29 @@ table{
                 </tr><!-- end: tr -->
 		           <tr>
 		            <td class="bg_white email-section">
-		            	<div class="heading-section" style="text-align: center; padding: 0 30px;">
-		            		<span class="subheading">qua c'è la parte</span>
-		              	<h2>Dove vanno i prezzi? 'Na cosa del genere</h2>
-		              	<p><span class="strong">La distinzione tra camere "verdi" ed "azzurre" riguarda solamente la "vista"</span> e non la distanza dal mare in quanto tutte le camere sono nel raggio di un centinaio di metri dalla spiaggia e quindi decisamente vicino al mare.</p>
-                  </div>
+		            	<div class="heading-section" style="text-align: center; padding: 30px 30px 0;">
+                    <h2>Il suo preventivo per quattro persone <br> dal 07/07/2020 al 20/07/2020</h2>
+                    
+                    <div class="preventivo bg_light" style="padding: 30px; margin-bottom: 5px; margin-left: -30px; margin-right: -30px;">
+                      <div class="preventivo1" style="margin-bottom: 40px;">
+                        <h2 class="subheading">CAMERA QUADRUPLA "azzurra"</h2>
+                      
+                        <p><span class="strong aleft">Camera e colazione:</span> 666€ / 166€ al giorno</p>
+                        <p><span class="strong aleft">Mezza pensione:</span> 666€ / 166€ al giorno</p>
+                        <p><span class="strong aleft">Pensione completa:</span> 666€ / 166€ al giorno</p>
+                      </div>
+
+                      <div class="preventivo2">
+                        <h2 class="subheading">CAMERA QUADRUPLA "verde"</h2>
+                        
+                        <p><span class="strong aleft">Camera e colazione:</span> 666€ / 166€ al giorno</p>
+                        <p><span class="strong aleft">Mezza pensione:</span> 666€ / 166€ al giorno</p>
+                        <p><span class="strong aleft">Pensione completa:</span> 666€ / 166€ al giorno</p>
+                      </div>  
+
+                    </div>
+
+                   
                   <table class="bg_light elem-small pdng-small"> <!-- elemento con 1 colonna  -->
                     <tr style="margin-top: 30px;">
                       <td class="icon">
@@ -775,7 +807,16 @@ table{
                         </table>
                       </td>
                     </tr>
-		            	</table> 
+                  </table> 
+                  
+                    <div class="note aleft" style="margin-top: 30px; margin-bottom: 30px;">
+                      <span class="subheading">Note</span>
+
+                      <p><span class="strong">Tutti i prezzi si intendono per l'intera camera.</span></p>
+                      
+                      <p><span class="strong">La distinzione tra camere "verdi" ed "azzurre" riguarda solamente la "vista"</span> e non la distanza dal mare in quanto tutte le camere sono nel raggio di un centinaio di metri dalla spiaggia e quindi decisamente vicino al mare.</p>
+                    </div>
+                  </div>
 		            </td>
 		          </tr><!-- end: tr -->
 		          <tr>
